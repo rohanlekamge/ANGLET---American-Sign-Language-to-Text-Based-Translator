@@ -1,4 +1,4 @@
-# ANGLET---American-Sign-Language-to-Text-Based-Translator
+﻿# ANGLET---American-Sign-Language-to-Text-Based-Translator
 
 There is a complicated struggle with the deaf community to enhance their abilities or even gain
 much-needed exposure to communicate with society. That includes asking a certain direction from
@@ -15,3 +15,12 @@ language interpreters or even generally finding teachers who understand the sign
 to pursue a career. There are firms that employ certain deaf people, but still, there’s quite a mile to
 follow and fit into certain requirements. Overall lack of awareness generally affects the hearing
 impaired community abundantly.
+
+Contributors:
+
+• Sasanka Dahanayake
+• Rohan Lekamge
+• Vihan Perera
+• Dinura Sonal
+• Raveen De Zoysa
+• Sandaru Munasinghe
