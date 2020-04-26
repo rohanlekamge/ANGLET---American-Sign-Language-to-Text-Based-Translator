@@ -1,0 +1,23 @@
+﻿<!-- nav -->
+<nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="currentUser">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/">Home</a>
+        <a class="nav-item nav-link" (click)="logout()">Logout</a>
+    </div>
+</nav>
+
+<h1 style="position: absolute; top: 5%; left: 50px;">American Sign Language to Text-Based Translator</h1>
+
+<img src="/landIcon.png" width="200px" style="position: absolute; margin-left: 130px; top: 35%;" >
+
+<!-- main app container -->
+<div class="jumbotron" style="margin-top: 10%;">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3">
+                <alert></alert>
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
