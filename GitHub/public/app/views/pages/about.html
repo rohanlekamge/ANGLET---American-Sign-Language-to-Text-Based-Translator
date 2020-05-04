@@ -1,0 +1,350 @@
+ <!DOCTYPE html>
+<html>
+
+<header>
+  <title>Anglet</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <style>
+
+	/*** Social Media ***/
+	.middle1{
+	    top: 50%;
+	    transform: translateY(-50%);
+	    width: 100%;
+	    text-align: center;
+	}
+	.bttn{
+	    display: inline-block;
+	    width: 90px;
+	    height: 90px;
+	    background: #f1f1f1;
+	    margin: 10px;
+	    border-radius: 30%;
+	    box-shadow: 0 5px 15px -5px #00000070;
+	    overflow: hidden;
+	    position: relative;
+	}
+	.icon1{
+	    color: #00C32C;
+	}
+	.icon2{
+	    color: #3498db;
+	}
+	.icon3{
+	    color: #E7A400;
+	}
+	.icon4{
+	    color: red;
+	}
+	.icon5{
+	    color: red;
+	}
+	.bttn i{
+	    line-height: 90px;
+	    font-size: 26px;
+	    transition: 0.2s linear;
+	}
+	.bttn:hover i{
+	    transform: scale(1.3);
+	    color: #f1f1f1;
+	}
+	.bttn::before{
+	    content: "";
+	    position: absolute;
+	    width: 120%;
+	    height: 120%;
+	    background: #3498db;
+	    transform: rotate(45deg);
+	    left: -110%;
+	    top: 90%;
+	}
+	.bttn:hover::before{
+	    animation: aaa 0.7s 1;
+	    top: -10%;
+	    left: -10%;
+	}
+	@keyframes aaa {
+	    0%{
+	        left: -110%;
+	        top: 90%;
+	    }50%{
+	        left: 10%;
+	        top: -30%;
+	    }100%{
+	        top: -10%;
+	        left: -10%;
+	    }
+	}
+
+	/*** Footer ***/
+	.footer {
+	    left: 0;
+	    bottom: 0;
+	    height: 250px;
+	    width: 100%;
+	    background-color: #42536d;
+	    color: white;
+	    text-align: center;
+	}
+
+  	.footer 
+  	{
+	    left: 0;
+	    bottom: 0;
+	    height: 250px;
+	    width: 100%;
+	    background-color: #42536d;
+	    color: white;
+	    text-align: center;
+	}
+
+		/*** Our Team Memmbers ***/
+	.team-section{
+	    background: #d6c5e2;
+	    text-align: center;
+	}
+	.inner-width{
+	    max-width: 1200px;
+	    margin: auto;
+	    padding: 40px;
+	    color: #333;
+	    overflow: hidden;
+	}
+	.team-section h1{
+	    font-size: 20px;
+	    text-transform: uppercase;
+	    display: inline-block;
+	    border-bottom: 4px solid;
+	    padding-bottom: 10px;
+	}
+	.pe{
+	    float: left;
+	    width: calc(100% / 6);
+	    overflow: hidden;
+	    padding: 40px 0;
+	    transition: 0.4s;
+	}
+	.pe:hover{
+	    background: #ddd;
+	}
+	.pe img{
+	    width: 120px;
+	    height: 120px;
+	}
+	.p-name{
+	    font-size: 13.5px;
+	    margin: 16px 0;
+	    text-transform: uppercase;
+	}
+	.p-des{
+	    font-style: italic;
+	    color: #3498db;
+	}
+	.p-sm{
+	    margin-top: 12px;
+	}
+	.p-sm a{
+	    margin: 0 4px;
+	    display: inline-block;
+	    width: 30px;
+	    height: 30px;
+	    transition: 0.4s;
+	}
+	.p-sm a:hover{
+	    transform: scale(1.3);
+	}
+	.p-sm a i{
+	    color: #333;
+	    line-height: 30px;
+	}
+	@media screen and (max-width:600px) {
+	    .pe{
+	        width: 100%;
+	    }
+	}
+
+  </style>
+
+
+</header>
+
+<body>
+
+  <section class="testimonials">
+
+    <div class="card">
+  <div class="card-header">
+    
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p class="quote"> There is a complicated struggle with the deaf community to enhance their abilities or even gain much-needed exposure to communicate with society. That includes asking a certain direction from someone, having to commute from one location to another through public transport or even having to have a normal and viable conversation with someone. As it may not be a problem with the people who understand their language, there's a plethora of people or a whole society that would come across as bewildered when approached by a deaf person due to the lack of understanding of the expressivity gestured by them.
+
+    Among having complications with the society for a hearing impaired individual, there’s an overabundance of challenges that they encounter. Individuals born with hearing-impaired since birth would struggle in learning the commonly used English language, due to either the sign language interpreters or even generally finding teachers who understand the sign language. Apart from education, individuals from the deaf community would also struggle in seeking employment to pursue a career. There are firms that employ certain deaf people, but still, there’s quite a mile to follow and fit into certain requirements. Overall lack of awareness generally affects the hearing impaired community abundantly. </p>
+    <br>
+      <footer class="blockquote-footer"> The developers of <cite title="Source Title">A N G L E T </cite></footer>
+    </blockquote>
+  </div>
+</div>
+    
+    <br>
+
+	<div class="row">
+	  <div class="col-sm-6">
+	    <div class="card">
+	      <div class="card-body">
+	        <h5 class="card-title">Chamika Chiran</h5>
+	        <p class="card-text"> "What an brilliant project, good luck"</p>
+	        <a href="#/home" class="btn btn-primary">A N G L E T</a>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-sm-6">
+	    <div class="card">
+	      <div class="card-body">
+	        <h5 class="card-title">Thisal Gamage</h5>
+	        <p class="card-text">"Your prototype looks cool, and It works really well"</p>
+	        <a href="#/home" class="btn btn-primary">A N G L E T</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<br>
+
+	<div class="row">
+	  <div class="col-sm-6">
+	    <div class="card">
+	      <div class="card-body">
+	        <h5 class="card-title">Yvonne Perera</h5>
+	        <p class="card-text">"Hope to see this in every supermarket in the world ! "</p>
+	        <a href="#/home" class="btn btn-primary">A N G L E T</a>
+	      </div>
+	    </div>
+	  </div>
+	
+  </section>
+
+  <p>&nbsp</p>
+  <p>&nbsp</p>
+
+  	<!---- Our Team Members ---->
+    <a name="AboutUs">
+    <div class="team-section">
+      <div class="inner-width">
+        <h1>Meet Our Team</h1>
+        <div class="pers">
+        <p>&nbsp</p>
+
+          <div class="pe">
+            <a href="CVShane.html">
+              <img src="app/views/pages/Images/TeamMembers/Student 01.png" alt="Student 01">
+            </a>
+            <div class="p-name">Sasanka Dahanayke</div>
+            <div class="p-sm">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="pe">
+            <a href="CVRohan.html">
+              <img src="app/views/pages/Images/TeamMembers/Student 02.png" alt="Student 02">
+            </a>
+            <div class="p-name">Rohan Lekamge</div>
+            <div class="p-sm">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="pe">
+            <a href="CVSandharu.html">
+              <img src="app/views/pages/Images/TeamMembers/Student 03.png" alt="Student 03">
+            </a>
+            <div class="p-name">Sandaru Kaveesha</div>
+            <div class="p-sm">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="pe">
+            <a href="CVVihan.html">
+            <img src="app/views/pages/Images/TeamMembers/Student 04.png" alt="Student 04">
+            </a>
+            <div class="p-name">Vihan Perera</div>
+            <div class="p-sm">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="pe">
+            <a href="CVVihan.html">
+            <img src="app/views/pages/Images/TeamMembers/Student 05.png" alt="Student 05">
+            </a>
+            <div class="p-name">Dinura Sonal</div>
+            <div class="p-sm">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="pe">
+            <a href="CVVihan.html">
+            <img src="app/views/pages/Images/TeamMembers/Student 06.png" alt="Student 06">
+            </a>
+            <div class="p-name">Raveen DE ZOYZA</div>
+            <div class="p-sm">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <p>&nbsp</p>
+          <p>&nbsp</p>
+
+        </div>
+      </div>
+    </div>
+    </a>
+
+  <!---- Footer ---->
+    <a name="Footer">
+    <div class="footer">
+      <div class="middle1">
+        <a class="bttn icon1" href="https://www.facebook.com/">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="bttn icon2" href="https://twitter.com">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="bttn icon3" href="https://www.google.com/">
+          <i class="fab fa-google"></i>
+        </a>
+        <a class="bttn icon4" href="https://www.instagram.com">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="bttn icon5" href="https://www.youtube.com/">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+      <div>ABOUT US  &nbsp|&nbsp  CAREERS  &nbsp|&nbsp  HELP  &nbsp|&nbsp  TERMS & CONDITIONS  &nbsp|&nbsp  PAGE EDITORS  &nbsp|&nbsp  CONVERSION</div>
+      <p>&nbsp</p>
+      <div><i class="fas fa-envelope"></i> &nbsp anglet.translate@gmail.com &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <i class="fas fa-phone"></i> &nbsp (+94)71-123-456 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <i class="fas fa-home"></i> &nbsp 25/F, Colombo 07, Sri Lanka</div>
+      <p>&nbsp</p>
+      <div>© 2020 ANGLET. All rights reserved. No part of this site may be reproduced without our written permission.</div>
+      <div></div>
+    </div>
+    </a>
+
+</body>
+</html>

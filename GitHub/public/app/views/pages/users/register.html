@@ -1,0 +1,127 @@
+<link rel="stylesheet" href="app/views/pages/Images/TeamMembers/logincss.css">	
+<link rel="stylesheet" href="app/views/pages/Images/TeamMembers/footer.css">	
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<div style = "" class="container">
+
+	<div class="text-center">
+		<div class="page-header">
+			<h4>User Registration</h4>
+			<br>
+		</div>
+	</div>
+
+	<form ng-submit = "register.regUser(regData);">
+		<!-- Email -->
+		<label><h4>Email</h4></label>
+		<input class="form-control" type="text" name="email" placeholder="Please enter valid email address " ng-model="register.regData.email">
+		<br>
+
+		<!-- Username -->
+		<label><h4> Username</h4> </label>
+		<input class="form-control" type="text" name="username" placeholder="Please enter a username" ng-model="register.regData.username">
+		<br>
+
+		<!-- Password -->
+		<label><h4> Password</h4> </label>
+		<input class="form-control" type="password" name="password" placeholder="Please enter a new password" ng-model="register.regData.password">
+		<br>
+		<h6>If you an account <a href="#/login">login</a> from here </h6>
+
+		<div class="text-center">
+			<button class="btn btn-primary button" type="submit"> Register </button>
+		</div>
+
+	</form>
+</div>
+
+<br>
+
+<div class="row show-hide-message" ng-show="register.successMsg">
+	<div class="alert alert-success">
+		{{ register.successMsg }}
+	</div>
+</div>
+
+<br>
+
+<div class="row show-hide-message" ng-show="register.errorMsg">
+	<div class="alert alert-danger">
+		{{ register.errorMsg }}
+	</div>
+</div>
+
+<div class="main">
+		<h1>Personal Help</h1>
+		<ul class="cards">
+		    <li class="cards_item">
+		      <div class="card">
+		        <div class="card_image"><img src="app/views/pages/Images/TeamMembers/Password.gif"></div>
+		        <div class="card_content">
+		          <h2 class="card_title"> Password / Pin </h2>
+		          <p class="card_text"></p>
+		          
+		        </div>
+		      </div>
+		    </li>
+		    <li class="cards_item">
+		      <div class="card">
+		        <div class="card_image"><img src="app/views/pages/Images/TeamMembers/name.gif"></div>
+		        <br><br>
+		        <div class="card_content">
+		        <br><br>
+		          <h2 class="card_title">Username / Name </h2>
+		          <p class="card_text"></p>
+		          
+		        </div>
+		      </div>
+		    </li>
+		    <li class="cards_item">
+		      <div class="card">
+		        <div class="card_image"><img src="app/views/pages/Images/TeamMembers/login.gif"></div>
+		        <div class="card_content">
+		          <h2 class="card_title"> Login / Register </h2>
+		          <p class="card_text"></p>
+		          
+		        </div>
+		      </div>
+		    </li>
+		    <li class="cards_item">
+		      <div class="card">
+		        <div class="card_image"><img src="app/views/pages/Images/TeamMembers/email.gif"></div>
+		        <div class="card_content">
+		          <h2 class="card_title"> Email / Gmail </h2>
+		          <p class="card_text"></p>
+		          
+		        </div>
+		      </div>
+		    </li>
+		</ul>
+	</div>
+	<br><br><br>
+
+	<a name="Footer">
+    <div class="footer">
+      <div class="middle1">
+        <a class="bttn icon1" href="https://www.facebook.com/">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="bttn icon2" href="https://twitter.com">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="bttn icon3" href="https://www.google.com/">
+          <i class="fab fa-google"></i>
+        </a>
+        <a class="bttn icon4" href="https://www.instagram.com">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="bttn icon5" href="https://www.youtube.com/">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+      <div><i class="fas fa-envelope"></i> &nbsp anglet.translate@gmail.com &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <i class="fas fa-phone"></i> &nbsp (+94)71-123-456 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <i class="fas fa-home"></i> &nbsp 25/F, Colombo 07, Sri Lanka</div>
+      <p>&nbsp</p>
+      <div>© 2020 ANGLET. All rights reserved. No part of this site may be reproduced without our written permission.</div>
+      <div></div>
+    </div>
+    </a>
